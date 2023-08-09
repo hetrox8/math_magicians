@@ -15,7 +15,7 @@ const Button = () => {
         <button
           key={number}
           type="button"
-          className={`btn ${['/', 'x', '-', '+', '='].includes(number) ? 'operations' : 'number'} ${number === '0' ? 'zero' : ''}`}
+          className={`btn ${['/', 'x', '-', '+', '='].includes(number) ? 'expressions' : 'number'} ${number === '0' ? 'zero' : ''}`}
         >
           {number}
         </button>

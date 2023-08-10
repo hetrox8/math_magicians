@@ -12,20 +12,21 @@
   padding: 5%;
 }
 
-.output {
+output {
   width: 234px;
   display: flex;
   justify-content: flex-end;
   font-size: 32px;
   padding: 1rem 0.3rem;
-  background-color: #858693;
+  background-color: #aab8a391;
   color: #fff;
 }
 
 .buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 0.1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.1rem;
+    background: linear-gradient(45deg, #d74545, #9e0cdf);
 }
 
 .zero {
@@ -36,12 +37,23 @@
   padding: 1rem;
   border: none;
   font-size: 20px;
+  background: #30c163;
 }
 
 .number {
-  background-color: #e0e0e0;
+  background-color: #d0b0e3;
 }
 
 .expressions {
   background-color: #f5913e;
+}
+
+.output {
+    width: 234px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 32px;
+    padding: 1rem 0.3rem;
+    background-color: #858693;
+    color: #fff;
 }

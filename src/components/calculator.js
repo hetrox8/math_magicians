@@ -17,7 +17,7 @@ export default function Calculator() {
   return (
     <div className="calculator-container">
       <div className="calculator">
-        <p className="result">
+        <p className="output">
           {data.total}
           {' '}
           {data.operation}

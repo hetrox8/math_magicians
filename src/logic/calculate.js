@@ -1,4 +1,3 @@
-git stash save "Your stash message"
 import operate from './operate';
 
 function isNumber(item) {

@@ -1,13 +1,18 @@
-import React from 'react';
+vimport React from 'react';
+import PropTypes from 'prop-types';
 
-const Button = () => {
+const Button = ({ onClick }) => {
   const buttons = [
-    'AC', '+/-', '%', '/',
+    'AC', '+/-', '%', '÷',
     '7', '8', '9', 'x',
     '4', '5', '6', '-',
     '1', '2', '3', '+',
     '0', '.', '=',
   ];
+
+  const handleClick = (number) => {
+    onClick(number);
+  };
 
   return (
     <div className="buttons">
@@ -15,7 +20,8 @@ const Button = () => {
         <button
           key={number}
           type="button"
-          className={`btn ${['/', 'x', '-', '+', '='].includes(number) ? 'expressions' : 'number'} ${number === '0' ? 'zero' : ''}`}
+          className={`btn ${['÷', 'x', '-', '+', '='].includes(number) ? 'operations' : 'number'} ${number === '0' ? 'zero' : ''}`}
+          onClick={() => handleClick(number)}
         >
           {number}
         </button>
@@ -24,4 +30,8 @@ const Button = () => {
   );
 };
 
-export default Button;
+Button.propTypes = {
+  onClick: PropTypes.func.isRequired,
+};
+
+export default Button; 

@@ -10,7 +10,7 @@ const Quotes = () => {
       try {
         const response = await fetch('https://api.api-ninjas.com/v1/quotes?category=success', {
           headers: {
-            'X-Api-Key': '0oWa33wHCcpfBcURu9UPv39A2rSCT1DcyejUtSf8',
+            'X-Api-Key': 'EXh0I39TFVZtzTYhV9/jkA==xTfqqoTOZ7qABmk4',
             'Content-Type': 'application/json',
           },
         });

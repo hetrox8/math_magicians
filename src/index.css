@@ -57,3 +57,20 @@ output {
   background-color: #858693;
   color: #fff;
 }
+
+.q-container {
+  margin: 0 2rem;
+  padding: 5%;
+}
+
+.D-quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.R-Quotes {
+  font-size: 23px;
+  color: hsla(180, 51.4%, 51.6%, 1);
+  font-family: sans-serif;
+}

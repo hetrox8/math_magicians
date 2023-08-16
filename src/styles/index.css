@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
@@ -93,7 +93,7 @@ nav.nav-bar {
 }
 
 h1.h-h1 {
-  /* padding: 3%; */
+  color: green;
   padding-bottom: 3%;
 }
 
@@ -104,6 +104,10 @@ h1.h-h1 {
 }
 
 p.h-para {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 900;
+}
+
+ul > li {
+  list-style: none;
 }

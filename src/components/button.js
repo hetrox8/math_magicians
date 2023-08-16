@@ -15,18 +15,21 @@ const Button = ({ onClick }) => {
   };
 
   return (
-    <div className="buttons">
-      {buttons.map((number) => (
-        <button
-          key={number}
-          type="button"
-          className={`btn ${['÷', 'x', '-', '+', '='].includes(number) ? 'operations' : 'number'} ${number === '0' ? 'zero' : ''}`}
-          onClick={() => handleClick(number)}
-        >
-          {number}
-        </button>
-      ))}
-    </div>
+    <>
+
+      <div className="buttons">
+        {buttons.map((number) => (
+          <button
+            key={number}
+            type="button"
+            className={`btn ${['÷', 'x', '-', '+', '='].includes(number) ? 'operations' : 'number'} ${number === '0' ? 'zero' : ''}`}
+            onClick={() => handleClick(number)}
+          >
+            {number}
+          </button>
+        ))}
+      </div>
+    </>
   );
 };
 

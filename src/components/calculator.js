@@ -15,17 +15,21 @@ export default function Calculator() {
   };
 
   return (
-    <div className="calculator-container">
-      <div className="calculator">
-        <p className="output">
-          {data.total}
-          {' '}
-          {data.operation}
-          {' '}
-          {data.next}
-        </p>
-        <Button onClick={handleData} />
+    <>
+
+      <div className="calculator-container">
+        <h1>lets do math</h1>
+        <div className="Calculator">
+          <p className="output">
+            {data.total}
+            {' '}
+            {data.operation}
+            {' '}
+            {data.next}
+          </p>
+          <Button onClick={handleData} />
+        </div>
       </div>
-    </div>
+    </>
   );
 }

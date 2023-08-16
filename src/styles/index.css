@@ -1,7 +1,10 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .calculator {
   width: 100%;
@@ -12,7 +15,7 @@
   padding: 5%;
 }
 
-output {
+.output {
   width: 234px;
   display: flex;
   justify-content: flex-end;
@@ -48,29 +51,59 @@ output {
   background-color: #f5913e;
 }
 
-.output {
-  width: 234px;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 32px;
-  padding: 1rem 0.3rem;
-  background-color: #858693;
-  color: #fff;
-}
-
-.q-container {
-  margin: 0 2rem;
-  padding: 5%;
-}
-
 .D-quotes {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5%;
 }
 
 p.R-Quotes {
   font-size: 23px;
   color: hsla(180, 51.4%, 51.6%, 1);
   font-family: sans-serif;
+}
+
+nav {
+  background-color: #e5e5e5;
+  padding: 16px 32px;
+}
+
+nav a {
+  margin-right: 16px;
+}
+
+/* complete page  stylees */
+
+ul.list-item {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center;
+  margin-left: auto;
+}
+
+nav.nav-bar {
+  display: flex;
+  gap: 5%;
+}
+
+.h-container {
+  padding: 5%;
+}
+
+h1.h-h1 {
+  /* padding: 3%; */
+  padding-bottom: 3%;
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+p.h-para {
+  font-size: 32px;
+  font-weight: 900;
 }

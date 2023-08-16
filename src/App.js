@@ -1,13 +1,20 @@
-import Quotes from './components/Api_Quotes';
-import Calculator from './components/calculator';
+import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home'; // Import the Home component
+import Quotes from './components/Quotes';
+import Calculator from './components/Calculator';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="q-container">
-      <Calculator />
-      <Quotes />
-    </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Calculator" element={<Calculator />} />
+        <Route path="/Quotes" element={<Quotes />} />
+      </Routes>
 
+    </div>
   );
 }
 

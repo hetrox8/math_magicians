@@ -60,7 +60,7 @@ This project's main feature is for the client to perform mathematical calculatio
 
 <!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://react-to-do-app-ziop.onrender.com/Quotes)
+- [Live Demo Link](<a href="https://react-to-do-app-ziop.onrender.com/Quotes">Visit here</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 

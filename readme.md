@@ -58,7 +58,7 @@ This project's main feature is for the client to perform mathematical calculatio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](<a href="https://react-to-do-app-ziop.onrender.com/">Visit here</a>)
 
@@ -112,7 +112,7 @@ You can deploy this project using:
 
 Deploy this project on any web server
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 

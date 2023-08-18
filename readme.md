@@ -62,7 +62,7 @@ This project's main feature is for the client to perform mathematical calculatio
 
 - [Live Demo Link](<a href="https://react-to-do-app-ziop.onrender.com/">Visit here</a>)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
